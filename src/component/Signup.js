@@ -4,7 +4,8 @@ import { UserContext } from "../context/User";
 
 const CLIENT_ID = "44be0cfc875548ba8ef9f1f47a2217f2"; // insert your client id here from spotify
 const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize";
-const REDIRECT_URL_AFTER_LOGIN = 'https://spotify-1301.netlify.app/callback';
+// const REDIRECT_URL_AFTER_LOGIN = 'https://spotify-1301.netlify.app/callback';
+const REDIRECT_URL_AFTER_LOGIN = 'http://localhost:3000/callback';
 const SPACE_DELIMITER = "%20";
 const SCOPES = [
   "user-read-currently-playing",

@@ -63,12 +63,6 @@ const UserPlaylist = () => {
       }
     }, [playlistType])
 
-    const handleGetPlaylists = () => {
-        setData(myPlaylist);
-    };
-    const handleGetFeaturedPlaylists = () => {
-        setData(feauturedPlaylist);
-      };
     
     return (
         <>
